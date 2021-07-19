@@ -1,0 +1,23 @@
+/* tagname/classname/id{
+    property: value
+} */
+
+body{
+    background-color: #f0f2f5;
+}
+
+h1{
+    color: #166fe5; /* Hexadecimal vale ##rrggbb and hsl value hsl(hue, saturation, lightness)*/
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#courses{
+    color: #5e068a;
+}
+
+.btn{
+    background-color: #5e068a;
+    color: #f0f2f5;
+    padding: 12px 20px;
+}

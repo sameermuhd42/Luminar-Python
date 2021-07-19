@@ -1,0 +1,35 @@
+body{
+    background-color: #f5f5f5;
+    padding-left: 140px;
+    padding-top: 10px;
+}
+
+div{
+    background-color: #fbfbfb;
+    float: left;
+    width: 20%; /* css unit % - relative to parent */
+    min-height: 500px; /* css unit px - absolute positioning */
+    margin-left: 25px;
+
+}
+
+div img{
+    width: 100%;
+    
+}
+
+div h3{
+    font-size: 18px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+div p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #414141;
+}
