@@ -8,14 +8,13 @@ div{
     background-color: #fbfbfb;
     float: left;
     width: 20%; /* css unit % - relative to parent */
-    min-height: 500px; /* css unit px - absolute positioning */
+    min-height: 820px; /* css unit px - absolute positioning */
     margin-left: 25px;
 
 }
 
 div img{
     width: 100%;
-    
 }
 
 div h3{

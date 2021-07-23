@@ -1,0 +1,20 @@
+body{
+    height: 1600px;
+}
+
+.row{
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    position: fixed;
+    left: 70%;
+    
+}
+
+.stk{
+    height: 200px;
+    width: 80%;
+    background-color: chocolate;
+    position: sticky;
+    top: 5px;
+}

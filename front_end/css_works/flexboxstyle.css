@@ -1,0 +1,59 @@
+.row{
+    width: 70%;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    /* justify-content: center;    horizontal positioning */
+    /* justify-content: space-around;     space in left and right of each div */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    align-items: center    /* vertical positoning */
+}
+
+.col{
+    width: 200px;
+    height: 200px;
+}
+
+.col:nth-child(1){
+    background-color: burlywood;
+}
+
+.col:nth-child(2){
+    background-color: violet;
+}
+
+.col:nth-child(3){
+    background-color: dodgerblue;
+}
+
+.row-1{
+    width: 70%;
+    height: 400px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    
+}
+
+.col-1{
+    width: 200px;
+    height: 200px;
+}
+
+.col-1:nth-child(1){
+    flex: 1;
+    background-color: burlywood;
+}
+
+.col-1:nth-child(2){
+    flex: 1;
+    background-color: violet;
+}
+
+.col-1:nth-child(3){
+    flex: 1;
+    background-color: dodgerblue;
+}
