@@ -15,3 +15,4 @@ for i in range(0, n):
         print(num, end=" ")
         num += 1
     print("\r")
+
